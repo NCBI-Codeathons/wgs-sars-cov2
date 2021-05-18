@@ -3,7 +3,7 @@ The goal of this project is to identify and visualize variation/divergence (snip
 
 Background
 
-Understanding variation across SARS-CoV-2 genome sequences and particularly spike protein sequences has important implications for the study of virology, vacccination production, and epidemiology. By identifying, visualizing, and interpreting the COVID-19 nucleotide record data, trends in variation can be emphasized, and a phylogenetic analysis can help understand the drift SARS-CoV-2 has taken in the United States. 
+Understanding variation across SARS-CoV-2 genome sequences and particularly spike protein sequences has important implications for the study of virology, vacccination production, and epidemiology. By identifying, visualizing, and interpreting the COVID-19 nucleotide record data, trends in variation can be emphasized, and a phylogenetic analysis can help understand the drift SARS-CoV-2 has taken in the United States. Instead of studying SARS-CoV-2 on the international level, studying SARS-CoV-2 phylogeny and its trends in the United States is useful in viewing the impact of variance on the national level. Through incorporating a precise randomization process during dataset preparation, sample data will be evened out across the states to avoid sampling bias and selection bias. By avoiding any biases when parsing the SARS-CoV-2 genome database, definitively interpreting the data will give significant results on whether there are divergent patterns present within the spike protein sequences across the United States.
 COVID-19 continues to spread and evolve since its initial outbreak in 2019. This virus is a +ssRNA virus whose genome contains genetic instructions for the construction of the Spike (S) protein. The S protein is a 1273 amino acid-long glycoprotein that plays a role in SARS-CoV-2 pathogenesis. The S protein is a portion of the SARS-CoV-2 virus that is responsible for receptor recognition and the cell membrane fusion process upon attack. The spike protein is composed of two subunits termed S1 and S2.  The S protein is a 1273 amino acid-long glycoprotein.  Previously published work has shown that changes in biological structure and function of species are attributable to sequence pattern divergence.  The S protein has a high mutational propensity, thus our project goal is to explore whole genome patterns of divergence amongst SARS-CoV-2 strains.  We would like to better understand functional consequences of divergence within the spike protein based on snippet assessments of the protein sequences.
 We hypothesize that there are divergent patterns present within the spike protein sequences. Further assessments of these divergence patterns will be critical to our understanding of the levels of significance as pertains to divergence and overall impact to the viral structure and function.
 
@@ -15,7 +15,7 @@ Data Preparation
 
 Data Analysis
 
-3. Apply a python code but more specifically a snippet occurrence analysis code to interpret the variance among the randomized dataset's sequences. 
+3. Apply a python code but more specifically a snippet occurrence analysis code to interpret the variance among the randomized dataset's sequences (The occurrence of an amino acid mismatch in the S protein sequence and its associated information is called a snippet occurrence).
 4. Apply the use of R package, protr package, etc to analyze the data from the snippet occurrence code.
 
 Data Visualization
