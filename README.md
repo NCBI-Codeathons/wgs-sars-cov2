@@ -10,3 +10,7 @@ Workflow
 Data Preparation
 1. Apply a ramdomization process in order to choose random datasets as well as allowing for iterative computing from the NCBI Virus SARS-CoV-2 nucleotide record.
 2. Download all of the sequences in a convenient output file format, such as a csv, to upload into GitHub. 
+
+Data Analysis
+3. Apply a python code but more specifically a snippet occurrence analysis code to interpret the variance among the randomized dataset's sequences. 
+4. Apply the use of R package, protr package, etc 
