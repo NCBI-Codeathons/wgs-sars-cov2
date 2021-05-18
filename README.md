@@ -13,4 +13,11 @@ Data Preparation
 
 Data Analysis
 3. Apply a python code but more specifically a snippet occurrence analysis code to interpret the variance among the randomized dataset's sequences. 
-4. Apply the use of R package, protr package, etc 
+4. Apply the use of R package, protr package, etc to analyze the data from the snippet occurrence code.
+
+Data Visualization
+5. Select 5 different strain sequences based upon snippet occurrences and run PyMol to determine if there would be structural changes. 
+6. Create multiple sequence alignments and a phylogenetic tree for data visualization and analysis.
+
+Data Interpretation
+7. As the final step, interpreting all of the data that is presented through snippet occurrences or visualization tools is important while concluding results. 
