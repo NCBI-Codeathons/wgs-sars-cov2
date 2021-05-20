@@ -1,0 +1,57 @@
+> midwest <- read.csv("C:/Users/vupet/Downloads/midwest.csv", header=FALSE)
+>   View(midwest)
+> library(splitstackshape)
+> set.seed(4)
+> DF <- data.frame(
++ ID = 1:41,
++ A = sample(c("V2", "V3", "V11"), 41, replace = TRUE),
++ B = rnorm(41), C = abs(round(rnorm(41), digits=1)),
++ D = sample(c("MI", "IN", "MN", "OH", "IA", "IL", "KS", "MO", "NE"), 123, replace = TRUE),
++ 0
++ )
+> stratified(DF, "A", 0.2)
+
+> `south.(1)` <- read.csv("C:/Users/vupet/Downloads/south (1).csv", header=FALSE)
+>   View(`south.(1)`)
+> library(splitstackshape)
+> set.seed(3)
+DF = data.frame(
++ ID = 1:123,
++ A = sample(c("V2", "V3", "V11"), 123, replace = TRUE),
++ B = rnorm(123), C = abs(round(rnorm(123), digits=1)),
++ D = sample(c("VA", "LA", "GA", "MD", "NC", "FL", "SC", "TX"), 123, replace = TRUE),
++ 0
++ )
+> stratified(DF, "A", .2)
+
+> west <- read.csv("C:/Users/vupet/Downloads/west.csv", header=FALSE)
+>   View(west)
+> library(splitstackshape)
+> set.seed(2)
+> DF <- data.frame(
++ ID = 1:733,
++ A = sample(c("V2"), 733, replace = TRUE),
++ B = rnorm(733), C = abs(round(rnorm(733), digits=1)),
++ D = sample(c("WA", "OR", "CA", "HI", "NV", "AZ", "UT"), 733, replace = TRUE),
++ 0
++ )
+> stratified(DF, "A", 0.034)
+
+
+> DF <- data.frame(
++ ID = 1:232, 
++ A = sample(c("V2", "V3,", "V11"), 232, replace = TRUE),
++ B = rnorm(232), C = abs(round(rnorm(232), digits=1)),
++ D = sample(c("NY", "PA", "NJ", "NH", "MA", "RI", "CT"), 232, replace = TRUE),
++ )
+Error in data.frame(ID = 1:232, A = sample(c("V2", "V3,", "V11"), 232,  : 
+  argument is missing, with no default
+> DF <- data.frame(
++ ID = 1:232,
++ A = sample(c("V2", "V3,", "V11"), 232, replace = TRUE),
++ B = rnorm(232), C = abs(round(rnorm(232), digits=1)),
++ D = sample(c("NY", "PA", "NJ", "NH", "MA", "RI", "CT"), 232, replace = TRUE),
++ 0
++ )
+> stratified(DF, "A", 0.105)
+
