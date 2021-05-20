@@ -28,13 +28,19 @@ Data Interpretation
 7. As the final step, interpreting all of the data that is presented through snippet occurrences or visualization tools is important while concluding results.
 
 
-Results: 
+Results:
+
 some fundamental questions to ask regarding the data: 
+
 How many genomes are currently available @ NCBI for SARS-CoV-2? 471,705
+
 (Search using this link: https://www.ncbi.nlm.nih.gov/genome/)
 How many genomes are from within the USA as of May 18, 2021? 258,988
+
 How many of the usa sequences are complete genomes? (not partial genomes) 140,636
-these data were filtered for March 2020-end of April 2020 giving us a total of 1326 (1163 that have the states listed) 
+
+these data were filtered for March 2020-end of April 2020 giving us a total of 1326 (1163 that have the states listed)
+
 - Data from the NCBI website were filtered and categorized  based on US regions in excel: ( North east, Midwest, South, West )
 **add pic 
 
