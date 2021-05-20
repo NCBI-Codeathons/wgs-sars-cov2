@@ -44,6 +44,8 @@ these data were filtered for March 2020-end of April 2020 giving us a total of 1
 - Data from the NCBI website were filtered and categorized  based on US regions in excel: ( North east, Midwest, South, West )
 **add pic 
 
+![region 1](regions 1.png)
+
   Because the data used is from the collection date as opposed to the collection date, the number of samples to choose from narrowed down ten-fold. This may not be     as statistically powerful due to the small size, but we decided to use genome sequences that appeared publicly on NCBI to verify that these sequences were processed by NCBI.
 
 - randomization process was done using stratified randomization. 
