@@ -50,7 +50,7 @@ these data were filtered for March 2020-end of April 2020 giving us a total of 1
 
 - randomization process was done using stratified randomization. 
 **add pic 
-
+the code Used is uploaded into the github. 
 
 
 - Data analysis 
