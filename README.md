@@ -9,23 +9,19 @@ We hypothesize that there are divergent patterns present within the spike protei
 
 Workflow
 
-Data Preparation
-1. Apply a ramdomization process in order to choose random datasets as well as allowing for iterative computing from the NCBI Virus SARS-CoV-2 nucleotide record.
-2. Download all of the sequences in a convenient output file format, such as a csv, to upload into GitHub.
+- Data selection, retrieval and parsing
+- Methods development 
+    - R-packages utilized for randomization- package called: splitstackshape
+      https://cran.r-project.org/web/packages/splitstackshape/index.html
+      https://www.r-project.org/nosvn/pandoc/splitstackshape.html
+    - Programs utilized for MSA and phylogenetic assessments- Muscle and MEGA
+- Data analysis and visualization-  
+    - use of R package, protr package, etc. or updated code for randomization process using FASTA files;
+    - Multiple Sequence Alignment and Phylogenetic Tree Construction- MEGA is multi-utility;
+    - Implementation of python code (ex. snippet occurrence analysis code but we will need to scale it); 
+- Graph snippet occurrence
 
-Data Analysis
-
-3. Apply a python code but more specifically a snippet occurrence analysis code to interpret the variance among the randomized dataset's sequences (The occurrence of an amino acid mismatch in the S protein sequence and its associated information is called a snippet occurrence).
-4. Apply the use of R package, protr package, etc to analyze the data from the snippet occurrence code.
-
-Data Visualization
-
-5. Select 5 different strain sequences based upon snippet occurrences and run PyMol to determine if there would be structural changes. 
-6. Create multiple sequence alignments and a phylogenetic tree for data visualization and analysis.
-
-Data Interpretation
-
-7. As the final step, interpreting all of the data that is presented through snippet occurrences or visualization tools is important while concluding results.
+Data interpretation- final pieces of project (TBD)
 
 
 Results:
@@ -40,6 +36,9 @@ How many genomes are from within the USA as of May 18, 2021? 258,988
 How many of the usa sequences are complete genomes? (not partial genomes) 140,636
 
 these data were filtered for March 2020-end of April 2020 giving us a total of 1326 (1163 that have the states listed)
+
+Based on these numbers, we will use a randomized approach to select 100 genomes to begin with.  We will use the whole genome sequence files to construct phylogenetic trees and then extract the spike protein sequences and proceed with additional analysis after that.
+
 
 - Data from the NCBI website were filtered and categorized  based on US regions in excel: ( North east, Midwest, South, West )
 
@@ -66,10 +65,13 @@ The same methods were used when analyzing the surface glycoprotein sequences of 
 
 - complications: 
 
-Demographics influence on geographical patterns; how do these impact the phylogenetic tree from the whole genome occurrences
-
+Demographics influence on geographical patterns; how do these impact the phylogenetic tree from the whole genome occurrences; Scaling up in presence of operating system oddities;
+Computing Phylogenetic tree with large amounts of data and finding ways to optimize the process (particularly with bootstrapping iterations)
 
 - future direction 
+
+Implementation of python code (ex. snippet occurrence analysis code but we will need to scale it); Visualization for this for example creating a graph of snippet occurrence.
+
 
 
 
