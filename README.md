@@ -46,6 +46,7 @@ these data were filtered for March 2020-end of April 2020 giving us a total of 1
 
 
 - Data analysis 
+
 After obtaining all of the randomized accession numbers in a single csv file, the csv was put through the Search Entrez System within the NCBI website. By putting the list of accession numbers in, all of samples’ genomes can be accessed through the NCBI browser. All of the genomic data for all 97 sample records was downloaded into one large FASTA file for further analysis. The FASTA file containing all 97 genomes was uploaded into a program called MEGA or Molecular Evolutionary Genetic Analysis. Through this program, the sequences were put through a multiple sequence alignment tool called Muscle within MEGA. After the multiple sequence alignments were finished, the alignment file was used to make a Maximum Likelihood Phylogenetic Tree through the JTT model with bootstrapping. The tree was constructed using MEGA’s phylogenetic tree construction tool.
 **add pic
 
