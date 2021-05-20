@@ -63,10 +63,13 @@ The same methods were used when analyzing the surface glycoprotein sequences of 
 
 - Methods used: 
 
+
+
 **add pic 
 
 
 - complications: 
+
 Demographics influence on geographical patterns; how do these impact the phylogenetic tree from the whole genome occurrences
 
 
